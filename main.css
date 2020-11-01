@@ -76,15 +76,15 @@ body,html{
 .matches_background{
     width: 805px;
     background-image: url("/Images/background_2.png");
+    z-index: 2;
 }
 
 .matches_date{
     height: 218.9px;
     width: 360px;
-    left: 163px;
-    margin-top: 53px;
+    margin-left: 163px;
+    margin-top: 109px;
     background-color: #FFFFFF;
-    z-index: 2;
     border-radius: 4px;
     box-shadow: inset 4.89814px -2.44907px 8.57175px #C6CFDA, inset -6.73495px -19.5926px 24.4907px #FFFFFF;
     filter: drop-shadow(-22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5));
@@ -111,7 +111,6 @@ body,html{
     width:71px;
     top: 46.13px;
     left: 202px;
-    z-index: 1;
 }
 
 .matches_date_team-2_logo{
@@ -123,7 +122,6 @@ body,html{
     height:83.87px;
     width: 83.97px;
     margin-right:14.39px;
-    z-index: 2;
 }
 
 .matches_notification{
@@ -134,6 +132,7 @@ body,html{
     width:360px;
     height: 49.27px;
     background-color:#EEEEEE;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .matches_notification-text{
@@ -149,40 +148,41 @@ body,html{
     background-repeat: no-repeat;
     width: 6.5%;
     height: 50.7%;
-    position:relative;
+    position: relative;
     margin-left: 33.59px;
-    z-index:2;
+    z-index: 1;
 }
 
 .matches_date-rectangle{
     background-image: url("/Images/matches_date-rectangle.svg");
     background-repeat: no-repeat;
     position: absolute;
-    width: 8.5%;
-    height: auto;    
+    width: 8.5%;   
+    height: 12.58px;
     right: 26.24px;
-    z-index: 1;
 }
 
 .matches_video{
     background-image: url("/Images/match_image_video.png");
     background-repeat: no-repeat;
-    width: 360px;
-    height:218.9px;
-    margin-left: 269px;
-    margin-top: 203px;
+    position: absolute;
+    width: 44%;
+    height: 218.9px;
+    margin-left: 268px;
+    margin-top: -31px;
     border-radius: 4px;
     filter: drop-shadow(-15.1278px 16.3884px 33.6173px rgba(0, 0, 0, 0.5));
+    z-index: -1;
 }
 
 .matches_information{
     position: relative;
-    width:407px;
+    width: 44%;
     left: -10px;
 }
 
 .matches_title{
-    width:582px;
+    width: 18.2%;
     height:22px;
     margin-top: 133px;
     font-size: 16px;
@@ -192,7 +192,7 @@ body,html{
 
 .matches_subtitle{
     position: relative;
-    width:426px;
+    width: 67%;
     height:37px;
     margin-top: 27px;
     font-size: 28px;
@@ -202,7 +202,7 @@ body,html{
 
 .matches_info-text{
     position: relative;
-    width:407px;
+    width: 64%;
     height:185px;
     margin-top: 27px;
     font-size: 16px;
@@ -214,7 +214,7 @@ body,html{
 
 .matches_learn-more{
     position: relative;
-    width:582px;
+    width: 13%;
     height:22px;
     margin-top: 22px;
     font-size: 16px;
@@ -382,7 +382,7 @@ body,html{
         flex-direction: column;
         justify-content: space-between;
     }
-    
+
     .matches_learn-more{
         position: relative;
         width:582px;
