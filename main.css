@@ -77,7 +77,8 @@ body,html{
     order: 1;
     width: 55.9%;
     height: 592px;
-    background-image: url("/Images/background_2.png");
+    background-image: linear-gradient(to right, rgba(245, 246, 252, 0.52), rgba(255, 255, 255)), url(/Images/background_2.png);
+    background-repeat: no-repeat;
 }
 
 .matches_date{
@@ -88,7 +89,7 @@ body,html{
     background-color: #FFFFFF;
     border-radius: 4px;
     box-shadow: inset 4.89814px -2.44907px 8.57175px #C6CFDA, inset -6.73495px -19.5926px 24.4907px #FFFFFF;
-    filter: drop-shadow(-22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5));
+    
 }
 
 .matches_info{
@@ -226,6 +227,100 @@ body,html{
     font-weight: bold;
 }
 
+.Get_Started{
+    position: relative;
+    height: 716px;
+    width: 100%;
+    background-image: url(/Images/Get_Started-Background.png);
+}
+
+.Get_Started-text{
+    position: relative;
+    width: 33.3%;
+    height: 328;
+    align-items: flex-start;
+    top: 217px;
+    margin-left: 162px;
+}
+
+.Get_Started-title{
+    position: relative;
+    width: 24.5%;
+    font-weight: bold;
+}
+
+.Get_Started-subtitle{
+    position: relative;
+    width: 61.8%;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 27px;
+}
+
+.Get_Started-info{
+    position: relative;
+    width: 100%;
+    height: 139px;
+    line-height: 23px;
+    margin-top: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Get_Started-learn-more{
+    position: relative;
+    width: 20.3%;
+    height: 22px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 54px;
+    font-weight: bold;
+
+}
+
+.Get_Started-phone{
+    position: absolute;
+    background-image: url("/Images/Get_Started-Smarthphone.png");
+    background-repeat: no-repeat;
+    width: 27%;
+    height: 600px;
+    left: 839px;
+    top: 81px;
+}
+
+.Get_Started-bell{
+    position: absolute;
+    background-image: url(/Images/Bell-notification.svg);
+    background-repeat: no-repeat;
+    width: 13.15%;
+    height: 120.81px;
+    top: 125px;
+    left: 847px;
+    z-index: 3;
+}
+
+.Get_Started-cart{
+    position: absolute;
+    background-image: url(/Images/Arrow-phone.svg);
+    background-repeat: no-repeat;
+    width: 25.15%;
+    height: 120.81px;
+    top: 445px;
+    left: 1100px;
+    z-index: 3;
+}
+.Get_Started-circle-on-line{
+    position: absolute;
+    background-image: url(/Images/Get_Started-circle-on-line.svg);
+    background-repeat: no-repeat;
+    width: 4.15%;
+    height: 60px;
+    top: 512px;
+    left: 768px;
+    z-index: 3;
+}
+
 @media only screen and (max-width: 375px){
     body,html{
         margin:0px;
@@ -286,16 +381,21 @@ body,html{
     .matches_background{
         width: 100%;
         order: 2;
-        background-image: url("/mobile_images/Matches-Background.png");
+        background-image: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(255, 255, 255)), url("/mobile_images/Matches-Background.png");
         background-repeat: no-repeat;
         margin-top: 22px;
+        z-index: 1;
     }
 
     .matches_date{
         height: 149.58px;
         width: 68.6%;
         margin-left: 15px;
-        margin-top: 52px;   
+        margin-top: 52px; 
+        background: #FFFFFF;
+        box-shadow: -15.1278px 16.3884px 33.6173px rgba(0, 0, 0, 0.5);
+        border-radius: 2.74531px;  
+        filter: drop-shadow(-0.0416px 0.8785px 0.9814px rgba(0, 0, 0, 0.5));
     }
 
     .matches_info{
@@ -352,6 +452,7 @@ body,html{
         width: 100%;
         margin-left: 93px;
         margin-top: 30px;
+        box-shadow: -8px 10px 18px 0px rgba(88, 88, 88, 0.87);
     }
     
     .matches_what_it_does{
@@ -386,12 +487,12 @@ body,html{
     }
 
     .Get_Started{
-        position:relative;
-        height:1023px;
-        width:100%;
+        height: 1023px;
+        width: 100%;
         display:flex;
         flex-direction: column;
         background-color: white;
+        background-image: none;
     }
 
     .Get_Started-text{
@@ -399,6 +500,11 @@ body,html{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width:100%;
+        height:none;
+        top:none;
+        margin-left:0;
+        top: 0px
     }
 
     .Get_Started-title{
@@ -461,13 +567,11 @@ body,html{
     }
 
     .Get_Started-phone{
-        position: absolute;
         background-image: url("/mobile_images/Get_Started-Phone.png");
         background-repeat: no-repeat;
-        width: 100%;
-        margin-left: 35px;
-        margin-top: 100px;
-        margin-bottom: 63px;
+        width: 80%;
+        left: 35px;
+        top: 100px;
         height: 480.51px;
         z-index: 2;   
     }
