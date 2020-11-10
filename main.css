@@ -413,6 +413,255 @@ body,html{
 .mobile-svg{
     display:none;
 }
+
+.User{
+    position:relative;
+    width: 100%;
+    height: 431px;
+    color: #333333;
+    overflow: hidden;
+    border: 1px white;
+}
+
+.User-title{
+    position: relative;
+    width: 17.5%;
+    height: 37px;
+    margin-left: 594px;
+    margin-top: 62px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 37px;
+}
+
+.User-Left_Arrow{
+    position: absolute;
+    width: 3.2%;
+    height: 47px;
+    left: 102px;
+    top: 219px;
+    z-index: 2;
+}
+
+.User-Right_Arrow{
+    position: absolute;
+    width: 3.2%;
+    height: 47px;
+    left: 1292px;
+    top: 219px;
+    z-index: 2;
+}
+
+.User-review-container{
+    display: flex;
+    z-index: 1;
+    margin-top: 63px;
+    margin-left: -160px;
+    width: 1687px;
+}
+
+.User-box{
+    position: relative;
+    width: 21.45%;
+    height: 161px;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 35px;
+    text-align: left;
+}
+
+.User-box-top{
+    display: flex;
+}
+
+.User-Avatar{
+    position: relative;
+    width: 9.7%;
+    height: 30px;
+    margin-left: 17px;
+    margin-top: 15px;
+}
+
+.User-Name{
+    position: relative;
+    width: 40.5%;
+    height: 20px;
+    margin-left: 11px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+}
+
+.User-Twitter{
+    position: relative;
+    width: 4.8%;
+    height: 12px;
+    margin-left: 90px;
+    margin-top: 23px;
+}
+
+.User-text{
+    position: relative;
+    width: 90%;
+    height: 74px;
+    margin-left: 17px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4F4F4F;
+}
+
+.User-scroll_bar{
+    position: relative;
+    margin-left: 649px;
+    margin-top: 47px;
+}
+
+.box-gradient-right{
+    position: absolute;
+    top: -0px;
+    width: 100%;
+    height: 161px;
+    background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
+    border-radius: 4px;
+}
+
+.box-gradient-right{
+    position: absolute;
+    top: -0px;
+    width: 100%;
+    height: 161px;
+    background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
+    border-radius: 4px;
+}
+
+.box-gradient-left{
+    position: absolute;
+    top: -0px;
+    width: 100%;
+    height: 161px;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
+    border-radius: 4px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.Sponsor{
+    position: relative;
+    width: 100%;
+    height: 278px;
+    background-color: #FAFAFA;
+    color: #333333;
+    border: 1px solid white;
+}
+
+.Sponsor-title{
+    position: relative;
+    width: 22.2%;
+    height: 37px;
+    margin-top: 51px;
+    margin-left: 560px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 37px;
+}
+
+.Sponsor-logo-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 75%;
+    height: 58px;
+    margin-top: 58px;
+    margin-left: 180px;
+}
+
+.Sponsor-logo-2{
+    position: relative;
+    top: -10px;
+}
+
+.Sponsor-logo-3{
+    position: relative;
+    top: -10px;
+}
+
+.Sponsor-logo-5{
+    position: relative;
+    top: -5px;
+}
+
+.Sponsor-logo-6{
+    position: relative;
+    top: -10px;
+}
+
+.Get_up{
+    width: 100%;
+    height: 485px;
+    background-color: white;
+    display: flex;
+}
+
+.Get_up-background{
+    width: 100%;
+    height: 483px;
+    background-image: url('/Images/Get-up-background.png');
+    background-repeat: no-repeat;
+}
+
+.Get_up-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    margin-top: 105px;
+    margin-left: 73px;
+}
+
+.Get_up-text-title{
+    width: 71%;
+    height: 37px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 37px;
+    color: #333333;
+}
+
+.Get_up-text-info{
+    width: 74%;
+    height: 125px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4F4F4F;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.Get_up-logos{
+    display: flex;
+    width: 100;
+    height: 47px;
+    margin-top: 38px;
+}
+
+.Get_up-logo-1{
+    width: 21.7%;
+    height: 47px;
+    background-image: url("/Images/Apple-Store.png");
+    background-repeat: no-repeat;
+}
+
+.Get_up-logo-2{
+    width: 21.7%;
+    height: 47px;
+    background-image: url("/Images/Google-Play.png");
+    background-repeat: no-repeat;
+    margin-left: 35.9px;
+}
+
 @media only screen and (max-width: 375px){
     body,html{
         margin:0px;
@@ -788,4 +1037,121 @@ body,html{
         margin-top: 50px;
         margin-bottom: 6px;
     }
+
+    .User{
+        width: 100%;
+        height: 402px;
+        background-color: white;
+    }
+    
+    .display-none{
+        display:none;
+    }
+    .User-title{
+        width: 67.2%;
+        margin-left: 54px;
+        margin-top: 50px;
+    }
+    
+    .User-Left_Arrow{
+        display: none;
+    }
+    
+    .User-Right_Arrow{
+        width: 12.5%;
+        left: 309px;
+        top: 183px;
+    }
+    
+    .User-review-container{
+        z-index: 1;
+        margin-top: 39px;
+        margin-left: 35px;
+        width: 100%;
+    }
+    
+    .User-box{
+        width: 82.4%;
+        text-align: left;
+    }
+
+    .User-scroll_bar{
+        width: 38.13%;
+        margin-left: 121px;
+        margin-top: 33px;
+    }
+
+    .box-gradient-right{
+        display: none;
+    }
+    
+    .box-gradient-left{
+        display: none;
+    }
+
+    .Sponsor{
+        width: 99%;
+        height: 409px;
+    }
+    
+    .Sponsor-title{
+        width: 85.3%;
+        margin-top: 57px;
+        margin-left: 20px;
+    }
+    
+    .Sponsor-logo-container{
+        display: inline;
+        width: 100%;
+        height: 272px;
+        margin-top: 0px;
+        margin-left: 0px;
+        background-color: red;
+    }
+    
+    .Sponsor-logo-1{
+        width: 39.2%;
+        height: 49px;
+        margin-top: 43px;
+        margin-left: 20px;
+    }
+
+    .Sponsor-logo-2{
+        position: relative;
+        width: 27.2%;
+        height: 32px;
+        margin-top: -30px;
+        margin-left: 232px;
+    }
+    
+    .Sponsor-logo-3{
+        position: relative;
+        width: 29.3%;
+        height: 32px;
+        margin-top: 33px;
+        margin-left: 128px;
+    }
+
+    .Sponsor-logo-4{
+        position: relative;
+        width: 18.4%;
+        height: 58px;
+        margin-top: -55px;
+        margin-left: 20px;
+    }
+    
+    .Sponsor-logo-5{
+        position: relative;
+        width: 12.8%;
+        height: 48px;
+        margin-top: -50px;
+        margin-left: 277px;
+    }
+    .Sponsor-logo-6{
+        width: 56%;
+        height: 34px;
+        margin-top: 54px;
+        margin-left: 75px;
+    }
+    
 }
