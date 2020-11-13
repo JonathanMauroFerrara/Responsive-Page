@@ -89,7 +89,7 @@ body,html{
     margin-top: 109px;
     background-color: #FFFFFF;
     border-radius: 4px;
-    box-shadow: inset 4.89814px -2.44907px 8.57175px #C6CFDA, inset -6.73495px -19.5926px 24.4907px #FFFFFF;
+    box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -179,6 +179,7 @@ body,html{
     margin-top: 68px;
     border-radius: 4px;
     z-index: 1;
+    filter: drop-shadow(-22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5));
 }
 
 .matches_what_it_does{
@@ -855,7 +856,7 @@ body,html{
         width: 100%;
         margin-left: 93px;
         margin-top: 30px;
-        box-shadow: -8px 0px 18px 0px rgba(88, 88, 88, 0.87);
+        filter: drop-shadow(-10.0416px 10.8785px 10.9814px rgba(0, 0, 0, 0.5));
     }
     
     .matches_what_it_does{
@@ -985,8 +986,8 @@ body,html{
         background-repeat: no-repeat;
         width: 25.15%;
         height: 100.81px;
-        top: 115px;
-        left: 33.70px;
+        top: 110px;
+        left: 42.70px;
         z-index: 3;
     }
 
@@ -996,8 +997,8 @@ body,html{
         background-repeat: no-repeat;
         width: 25.15%;
         height: 100.81px;
-        top: 364px;
-        left: 233.33px;
+        top: 355px;
+        left: 237.33px;
         z-index: 3;
     }
 
