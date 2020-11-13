@@ -520,29 +520,21 @@ body,html{
     margin-top: 47px;
 }
 
-.box-gradient-right{
-    position: absolute;
-    top: -0px;
-    width: 100%;
-    height: 161px;
-    background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
-    border-radius: 4px;
-}
 
 .box-gradient-right{
     position: absolute;
-    top: -0px;
+    top: -2px;
     width: 100%;
-    height: 161px;
+    height: 163px;
     background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
     border-radius: 4px;
 }
 
 .box-gradient-left{
     position: absolute;
-    top: -0px;
+    top: -2px;
     width: 100%;
-    height: 161px;
+    height: 163px;
     border-radius: 4px;
     background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
     border-radius: 4px;
