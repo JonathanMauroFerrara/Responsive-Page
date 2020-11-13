@@ -158,6 +158,10 @@ body,html{
     z-index: 2;
 }
 
+.a.active a:hover{
+    background: red;
+}
+
 .matches_date-rectangle{
     position: absolute;
     background-image: url("/Images/matches_date-rectangle.svg");
