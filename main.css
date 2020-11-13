@@ -661,6 +661,68 @@ body,html{
     margin-left: 35.9px;
 }
 
+.Footer{
+    position: relative;
+    width: 100%;
+    height: 127px;
+    display: flex;
+    background: #00ADEE;
+    color: white;
+    top: -2px;
+}
+
+.Footer-logo{
+    position: relative;
+    width: 6.8%;
+    height: 32px;
+    background-image: url(/Images/Footer-logo.svg);
+    background-repeat: no-repeat;
+    margin-left: 163px;
+    margin-top: 48px;
+}
+
+.Footer-info{
+    position: relative;
+    width: 26%;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+    margin-left: 271px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.Footer-social{
+    width: 7.5%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+    margin-left: 261px;
+}
+
+.Footer-social-logo-1{
+    width: 22.9%;
+    height: 25px;
+    background-image: url("/Images/footer-twitter.svg");
+    background-repeat: no-repeat;
+}
+
+.Footer-social-logo-2{
+    width: 22.9%;
+    height: 25px;
+    background-image: url("/Images/footer-facebook.svg");
+    background-repeat: no-repeat;
+}
+
+.Footer-social-logo-3{
+    width: 22.9%;
+    height: 25px;
+    background-image: url("/Images/footer-instagram.svg");
+    background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 375px){
     body,html{
         margin:0px;
@@ -1205,4 +1267,32 @@ body,html{
         margin-left: 28.6px;
     }
     
+    .Footer{
+        width: 100%;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Footer-logo{
+        width: 26.4%;
+        margin-left: 21px;
+        margin-top: 41px;
+    }
+    
+    .Footer-info{
+        width: 85.6%;
+        order: 2;
+        font-size: 16px;
+        line-height: 21px;
+        margin-top: 34px;
+        margin-left: 21px;
+    }
+    
+    .Footer-social{
+        width: 29%;
+        order: 1;
+        margin-top: 11px;
+        margin-left: 21px;
+    }
 }
